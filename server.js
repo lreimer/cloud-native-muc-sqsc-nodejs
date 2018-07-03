@@ -6,8 +6,11 @@ var app = express();
 const PORT = 8080 | process.env.PORT;
 const HOST = "0.0.0.0";
 
+var payload = { "message" : "Hello Cloud Native Night Muc with SquareScale!" };
+
 app.get("/", function (req, res) {
-    res.send("Hello Cloud Native Night Muc with SquareScale!");
+    res.contentType("application/json");
+    res.json(payload);
 });
 
 app.listen(PORT, function () {
