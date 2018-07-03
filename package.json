@@ -1,0 +1,23 @@
+{
+  "name": "cloud-native-muc-sqsc-nodejs",
+  "version": "1.0.0",
+  "description": "Simple Node.js demo service for the Cloud Native Night with SquareScale.",
+  "main": "server.js",
+  "scripts": {
+    "test": "Hello World."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lreimer/cloud-native-muc-sqsc-nodejs.git"
+  },
+  "author": "M.-Leander Reimer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lreimer/cloud-native-muc-sqsc-nodejs/issues"
+  },
+  "homepage": "https://github.com/lreimer/cloud-native-muc-sqsc-nodejs#readme",
+  "dependencies": {
+    "eslint": "^5.0.1",
+    "express": "^4.16.3"
+  }
+}
