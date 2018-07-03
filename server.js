@@ -6,7 +6,9 @@ var app = express();
 const PORT = 8080 | process.env.PORT;
 const HOST = "0.0.0.0";
 
-var payload = { "message" : "Hello Cloud Native Night Muc with SquareScale!" };
+const MESSAGE = "Hello Cloud Native Night Muc with SquareScale!" | process.env.MESSAGE;
+
+var payload = { "message" : MESSAGE };
 
 app.get("/", function (req, res) {
     res.contentType("application/json");
