@@ -3,10 +3,10 @@
 var express = require("express");
 var app = express();
 
-const PORT = 8080 | process.env.PORT;
+const PORT = process.env.PORT || 8080;
 const HOST = "0.0.0.0";
 
-const MESSAGE = "Hello Cloud Native Night Muc with SquareScale!" | process.env.MESSAGE;
+const MESSAGE = process.env.MESSAGE || "Hello Cloud Native Night Muc with SquareScale!";
 
 var payload = { "message" : MESSAGE };
 
