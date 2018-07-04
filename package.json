@@ -18,6 +18,7 @@
   "homepage": "https://github.com/lreimer/cloud-native-muc-sqsc-nodejs#readme",
   "dependencies": {
     "eslint": "^5.0.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "uuid": "^3.3.2"
   }
 }
