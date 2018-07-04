@@ -6,7 +6,7 @@ var app = express();
 const PORT = process.env.PORT || 8080;
 const HOST = "0.0.0.0";
 
-const MESSAGE = process.env.MESSAGE || "Hello Cloud Native Night Muc with SquareScale!";
+const MESSAGE = process.env.MESSAGE || "Hello Node Service Cloud Native Night with SquareScale!";
 
 var payload = { "message" : MESSAGE };
 
